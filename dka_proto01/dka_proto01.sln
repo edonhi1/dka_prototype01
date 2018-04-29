@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dka_proto01", "dka_proto01.csproj", "{62421F96-6897-FB1B-D05C-A789DEE1CFAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dka_proto01.Editor", "dka_proto01.Editor.csproj", "{69A5C23B-B7B6-25DD-1E05-4096A06E7C6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62421F96-6897-FB1B-D05C-A789DEE1CFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62421F96-6897-FB1B-D05C-A789DEE1CFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62421F96-6897-FB1B-D05C-A789DEE1CFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62421F96-6897-FB1B-D05C-A789DEE1CFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A5C23B-B7B6-25DD-1E05-4096A06E7C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A5C23B-B7B6-25DD-1E05-4096A06E7C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A5C23B-B7B6-25DD-1E05-4096A06E7C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A5C23B-B7B6-25DD-1E05-4096A06E7C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -219,9 +219,13 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+    <Compile Include="Assets\Scripts\Dungeon.cs" />
     <Compile Include="Assets\Scripts\LeftMove.cs" />
-    <Compile Include="Assets\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerLocater.cs" />
     <Compile Include="Assets\Scripts\RightMove.cs" />
+    <Compile Include="Assets\Scripts\SoldierMove.cs" />
+    <Compile Include="Assets\Scripts\Summoner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />

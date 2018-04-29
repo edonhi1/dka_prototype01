@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour {
+public class Player : MonoBehaviour {
 
     private GameObject player;
     public int speed;
@@ -12,14 +12,14 @@ public class PlayerMove : MonoBehaviour {
 	}
 	
 	void Update () {
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            player.transform.Translate(-speed * Time.deltaTime, 0, 0);
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            player.transform.Translate(speed * Time.deltaTime, 0, 0);
-        }
+        //if (Input.GetKey(KeyCode.LeftArrow))
+        //{
+        //    player.transform.Translate(-speed * Time.deltaTime, 0, 0);
+        //}
+        //if (Input.GetKey(KeyCode.RightArrow))
+        //{
+        //    player.transform.Translate(speed * Time.deltaTime, 0, 0);
+        //}
     }
 
     public void LeftArrow()

@@ -5,12 +5,12 @@ using UnityEngine;
 public class LeftMove : MonoBehaviour {
     public UISprite _sprite;
     public GameObject player;
-    private PlayerMove pm;
+    private Player pm;
     public bool isWalking;
 
     private void Start()
     {
-        pm = player.GetComponent<PlayerMove>();
+        pm = player.GetComponent<Player>();
         isWalking = false;
     }
 
